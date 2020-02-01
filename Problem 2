@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+#define limit 4000000
+
+int main()
+{
+	int a = 1, b = 2, c = 3;
+	int sum = 2;
+	while (c <= limit)
+	{
+		if (c % 2 == 0)
+		{
+			sum += c;
+		}
+		a = b;
+		b = c;
+		c = a + b;
+	}
+	cout << "Sum = " << sum << endl;
+	return 0;
+}
