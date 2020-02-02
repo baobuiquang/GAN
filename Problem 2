@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 #define limit 4000000
 
@@ -17,6 +17,6 @@ int main()
 		b = c;
 		c = a + b;
 	}
-	cout << "Sum = " << sum << endl;
+	printf("Sum = %d", sum);
 	return 0;
 }
