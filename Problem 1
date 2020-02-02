@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 #define target 1000
 
@@ -13,6 +13,6 @@ int main()
 			sum += i;
 		}
 	}
-	cout << "Sum = " << sum << endl;
+	printf("Sum = %d", sum);
 	return 0;
 }
