@@ -1,4 +1,4 @@
-# project_euler
-Source Code - Solution for Problems on Project Euler
+# Project Euler
+Source Code - Solution for Problems on [Project Euler](https://projecteuler.net/).
 
 Language: C/C++
