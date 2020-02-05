@@ -1,0 +1,35 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+#define N 600851475143
+
+bool isPrime(unsigned long long int num)
+{
+	for (unsigned long long int i = 2; i < num; i++)
+	{
+		if (num % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+int main()
+{
+	if (isPrime(N) == true)
+		printf("N = %d is the largest prime factor\n", N);
+	else
+	{
+		for (unsigned long long int i = 2; i <= N/2; i++)
+		{
+			unsigned long long int num = N / i;
+			if ((N % i == 0) && (isPrime(num) == true))
+			{
+				printf("num = %d is the largest prime factor\n", num);
+				break;
+			}
+		}
+	}
+	return 0;
+}
