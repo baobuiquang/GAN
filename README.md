@@ -1,4 +1,3 @@
 # Project Euler
-Source Code - Solution for Problems on [Project Euler](https://projecteuler.net/).
-
-Language: C/C++
+:bookmark_tabs: Solutions for Problems on [Project Euler](https://projecteuler.net/).
+> Language: C/C++
