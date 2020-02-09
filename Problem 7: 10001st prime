@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+#define target 10001
+
+//Function: Prime number (not full the function)
+bool isPrime(int num)
+{
+	for (int i = 2; i <= num/2; i++)
+	{
+		if (num % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+int main()
+{
+	int count = 0;
+	int num = 1;
+	do
+	{
+		num++;
+		if (isPrime(num) == true)
+		{
+			count++;
+		}
+	} while (count < target);
+	printf("Result: %d\n", num);
+}
