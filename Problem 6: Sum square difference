@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+
+#define target 100
+
+int sumOfSquares(int num)
+{
+	int result = 0;
+	for (int i = 1; i <= num; i++)
+	{
+		result += pow(i, 2);
+	}
+	return result;
+}
+
+int squareOfSum(int num)
+{
+	int result = 0;
+	for (int i = 1; i <= num; i++)
+	{
+		result += i;
+	}
+	return pow(result, 2);
+}
+
+int main()
+{
+	printf("Result: %d\n", squareOfSum(target) - sumOfSquares(target));
+	return 0;
+}
