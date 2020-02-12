@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#define target 1000
+
+int main()
+{
+	int a, b, c;
+	bool flag = false;
+	for (a = 1; a < target / 3; a++)
+	{
+		for (b = a + 1; b < target * 2 / 3; b++)
+		{
+			c = 1000 - a - b;
+			if (a * a + b * b == c * c)
+			{
+				flag = true;
+				break;
+			}
+		}
+		if (flag == true)
+		{
+			break;
+		}
+	}
+	printf("a = %d\nb = %d\nc = %d\n", a, b, c);
+	return 0;
+}
