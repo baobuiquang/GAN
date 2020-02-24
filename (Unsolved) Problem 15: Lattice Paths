@@ -1,0 +1,96 @@
+#include <stdio.h>
+
+#define target 3
+
+/*
+void moveRecursion(int x, int y, int& count)
+{
+	int x1 = x;
+	int y1 = y - 1;
+	int x2 = x - 1;
+	int y2 = y;
+	if (x == y)
+	{
+		int cnt = 0;
+		if ((x1 == 0) || (y1 == 0))
+		{
+			cnt++;
+		}
+		else
+		{
+			moveRecursion(x1, y1, cnt);
+		}
+		count = count + cnt * 2;
+	}
+	else
+	{
+		if ((x1 == 0) || (y1 == 0))
+		{
+			count++;
+		}
+		else
+		{
+			moveRecursion(x1, y1, count);
+		}
+		if ((x2 == 0) || (y2 == 0))
+		{
+			count++;
+		}
+		else
+		{
+			moveRecursion(x2, y2, count);
+		}
+	}
+}
+*/
+
+/*
+void moveRecursion(int x, int y, int& count, int a[3][400], int &index)
+{
+	int resultOfThisRecursion = 0;
+	bool flag = false;
+	for (int i = 0; i <= index; i++)
+	{
+		if ((x == a[0][i]) && (y == a[1][i]))
+		{
+			resultOfThisRecursion = a[2][i];
+			count += resultOfThisRecursion;
+			flag = true;
+			break;
+		}
+	}
+	if (flag == false)
+	{
+		int x1 = x;
+		int y1 = y - 1;
+		int x2 = x - 1;
+		int y2 = y;
+		if ((x1 == 0) || (y1 == 0))
+		{
+			resultOfThisRecursion++;
+		}
+		else
+		{
+			moveRecursion(x1, y1, count, a, index);
+		}
+		if ((x2 == 0) || (y2 == 0))
+		{
+			resultOfThisRecursion++;
+		}
+		else
+		{
+			moveRecursion(x2, y2, count, a, index);
+		}
+	}
+}
+*/
+
+int main()
+{
+	int count = 0;
+	//int a[3][400], index = 0;
+	//a[0][0] = 2, a[1][0] = 2, a[2][0] = 6;
+	//moveRecursion(target, target, count, a, index);
+	printf("Result = %d", count);
+	return 0;
+}
