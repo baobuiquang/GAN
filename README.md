@@ -5,7 +5,7 @@
 ### DSA - Data Structures and Algorithms
 
 <details>
-  <summary style="height: 32px;"><b>
+  <summary style="padding-bottom: 8px;"><b>
      1. Introduction
   </b></summary>
    
