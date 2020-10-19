@@ -9,6 +9,7 @@
    - Asymptotic Notations
    - Master Theorem
    - Divide and Conquer Algorithm
+   
 #### 2. Data Structures
    - Stack
    - Queue
@@ -23,3 +24,6 @@
    - Heap Data Structure
      - Fibonacci Heap
      - Decrease key and delete node from Fibonacci Heap
+
+#### 3. Tree based DSA
+   - Tree Data Structure
