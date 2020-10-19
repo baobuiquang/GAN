@@ -4,13 +4,21 @@
 
 ### DSA - Data Structures and Algorithms
 
-#### 1. Introduction
+<details>
+  <summary><b>
+     1. Introduction
+  </b></summary>
+   
    - What is an algorithm?
    - Asymptotic Notations
    - Master Theorem
    - Divide and Conquer Algorithm
+</details>
+<details>
+  <summary><b>
+     2. Data Structures
+  </b></summary>
    
-#### 2. Data Structures
    - Stack
    - Queue
      - Types of Queue
@@ -24,6 +32,4 @@
    - Heap Data Structure
      - Fibonacci Heap
      - Decrease key and delete node from Fibonacci Heap
-
-#### 3. Tree based DSA
-   - Tree Data Structure
+</details>
