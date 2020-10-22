@@ -1,5 +1,7 @@
 # Developer Handbook
 
+This handbook has been compiled by me from many different sources, with the purpose of making it convenient and easy to find and look up frequently used programming knowledge. This is only used for learning purposes.
+
 ## Table of Contents
 
 ### DSA - Data Structures and Algorithms
@@ -10,6 +12,7 @@
   </b></summary>
    
    - What is an algorithm?
+   - Why Learn Data Structures and Algorithms?
    - Asymptotic Notations
    - Master Theorem
    - Divide and Conquer Algorithm
@@ -74,3 +77,5 @@ Step 4: If D ≥ 0
               Display rp+j(ip) and rp-j(ip) as roots
 Step 5: Stop             
 ```
+
+## Why Learn Data Structures and Algorithms?
