@@ -11,11 +11,10 @@ This handbook has been compiled by me from many different sources, with the purp
      1. Introduction
   </b></summary>
    
-   - What is an algorithm?
-   - Why Learn Data Structures and Algorithms?
-   - Asymptotic Notations
-   - Master Theorem
-   - Divide and Conquer Algorithm
+   - [What is an algorithm?](#What-is-an-algorithm?)
+   - [Why Learn Data Structures and Algorithms?](#Why-Learn-Data-Structures-and-Algorithms?)
+   - [Asymptotic Notations](#Asymptotic-Notations)
+   - [Master Theorem](#Master-Theorem)
 </details>
 <details>
   <summary><b>
@@ -178,7 +177,7 @@ If `f(n)` is polynomially smaller than `n^log(b,a)` then `T(n) = Θ(n^log(b,a))`
 
 If `f(n)` is asymptotically the same as `n^log(b,a)` then `T(n) = Θ(n^log(b,a) * log(n))`
 
-If `f(n)` is asymptotically larger than `n^log(b,a)` then `T(n) = Θ(f(n))` 
+If `f(n)` is polynomially larger than `n^log(b,a)` then `T(n) = Θ(f(n))` 
 
 Example
 
@@ -213,3 +212,5 @@ T(n) = 8*T(n/2) + (n^3)/log(n)
 In this case, n^log(b,a) = n^3 and f(n) = (n^3)/log(n). 
 The master theorem makes no claim about the solution to the recurrence.
 ```
+
+##
