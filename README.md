@@ -36,6 +36,8 @@ This handbook has been compiled by me from many different sources, with the purp
      - Decrease key and delete node from Fibonacci Heap
 </details>
 
+________________________
+
 ## What is an algorithm?
 An algorithm is a set of well-defined instructions in sequence to solve a problem.
 
