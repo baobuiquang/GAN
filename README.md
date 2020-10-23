@@ -6,21 +6,20 @@ This handbook has been compiled by me from many different sources, with the purp
 
 ### DSA - Data Structures and Algorithms
 
-<details>
-  <summary><b>
-     1. Introduction
-  </b></summary>
+<!-- <details>
+  <summary><b> -->
+1. Introduction
+  <!-- </b></summary> -->
    
    - [What is an algorithm?](#What-is-an-algorithm?)
    - [Why Learn Data Structures and Algorithms?](#Why-Learn-Data-Structures-and-Algorithms?)
    - [Asymptotic Notations](#Asymptotic-Notations)
    - [Master Theorem](#Master-Theorem)
-</details>
+<!-- </details>
 <details>
-  <summary><b>
-     2. Data Structures
-  </b></summary>
-   
+  <summary><b> -->
+2. Data Structures
+  <!-- </b></summary> -->
    - Stack
    - Queue
      - Types of Queue
@@ -34,7 +33,7 @@ This handbook has been compiled by me from many different sources, with the purp
    - Heap Data Structure
      - Fibonacci Heap
      - Decrease key and delete node from Fibonacci Heap
-</details>
+<!-- </details> -->
 
 ________________________
 
