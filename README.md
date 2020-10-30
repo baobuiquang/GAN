@@ -201,14 +201,14 @@ The master theorem makes no claim about the solution to the recurrence.
 ## Bubble Sort
 
 ```
-swapped = false
-do
+for i = N - 1 to 1
   swapped = false
-  for i = 0 to (N - 2 - i)
-    if a[i] > a[i + 1]
-      swap(a[i], a[i + 1])
+  for j = 0 to (i - 1)
+    if a[j] > a[j + 1]
+      swap(a[j], a[j + 1])
       swapped = true
-while swapped
+  if swapped == false
+    break
 ```
 
 Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
@@ -216,8 +216,7 @@ Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
 Complexity: `O(n^2)`
 
 ```
-N-2-i = (N-1)-i-1 = index of last unsorted element - 1
-a[i] and a[i + 1] = 2 green bars
+a[j] and a[j + 1] = 2 green bars
 ```
 
 ![](/assets/Sorting/Bubble.gif)
