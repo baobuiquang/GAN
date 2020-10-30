@@ -222,11 +222,11 @@ a[i] and a[i + 1] = 2 green bars
 
 ![](/assets/Sorting/Bubble.gif)
 
-Reversed Sorted - Worst Case
+Reversed Sorted - Worst Case - `O(n^2)`
 
 ![](/assets/Sorting/Bubble1.gif)
 
-Sorted - Best Case
+Sorted - Best Case - `O(n)`
 
 ![](/assets/Sorting/Bubble2.gif)
 
@@ -252,11 +252,11 @@ minimum = red bar
 
 ![](/assets/Sorting/Selection.gif)
 
-Reversed Sorted - Worst Case
+Reversed Sorted - Worst Case - `O(n^2)`
 
 ![](/assets/Sorting/Selection1.gif)
 
-Sorted - Best Case
+Sorted - Best Case - `O(n^2)`
 
 ![](/assets/Sorting/Selection2.gif)
 
@@ -282,10 +282,10 @@ a[j+1] = the gap
 
 ![](/assets/Sorting/Insertion.gif)
 
-Reversed Sorted - Worst Case
+Reversed Sorted - Worst Case - `O(n^2)`
 
 ![](/assets/Sorting/Insertion1.gif)
 
-Sorted - Best Case
+Sorted - Best Case - `O(n)`
 
 ![](/assets/Sorting/Insertion2.gif)
