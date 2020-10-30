@@ -16,7 +16,7 @@ This handbook has been compiled by me from many different sources, with the purp
 3. Sorting Algorithm
    - [Bubble Sort O(n^2)](#bubble-sort)
    - [Selection Sort O(n^2)](#selection-sort)
-   - Insertion Sort
+   - [Insertion Sort O(n^2)](#insertion-sort)
 
 
 ________________________
