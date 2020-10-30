@@ -6,20 +6,12 @@ This handbook has been compiled by me from many different sources, with the purp
 
 ### DSA - Data Structures and Algorithms
 
-<!-- <details>
-  <summary><b> -->
 1. Introduction
-  <!-- </b></summary> -->
-   
    - [What is an algorithm?](#What-is-an-algorithm?)
    - [Why Learn Data Structures and Algorithms?](#Why-Learn-Data-Structures-and-Algorithms?)
    - [Asymptotic Notations](#Asymptotic-Notations)
    - [Master Theorem](#Master-Theorem)
-<!-- </details>
-<details>
-  <summary><b> -->
 2. Data Structures
-  <!-- </b></summary> -->
    - Stack
    - Queue
      - Types of Queue
@@ -33,7 +25,7 @@ This handbook has been compiled by me from many different sources, with the purp
    - Heap Data Structure
      - Fibonacci Heap
      - Decrease key and delete node from Fibonacci Heap
-<!-- </details> -->
+
 
 ________________________
 
@@ -214,4 +206,9 @@ In this case, n^log(b,a) = n^3 and f(n) = (n^3)/log(n).
 The master theorem makes no claim about the solution to the recurrence.
 ```
 
-##
+## Bubble Sort
+![](/assets/Sorting/Bubble.gif)
+Reversed Sorted - Worst Case
+![](/assets/Sorting/Bubble1.gif)
+Sorted - Best Case
+![](/assets/Sorting/Bubble2.gif)
