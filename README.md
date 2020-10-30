@@ -13,18 +13,10 @@ This handbook has been compiled by me from many different sources, with the purp
    - [Master Theorem](#Master-Theorem)
 2. Data Structures
    - Stack
-   - Queue
-     - Types of Queue
-     - Circular Queue
-     - Priority Queue
-     - Deque
-   - Linked List
-     - Linked List Operations
-     - Types of Linked List
-   - Hash Table
-   - Heap Data Structure
-     - Fibonacci Heap
-     - Decrease key and delete node from Fibonacci Heap
+3. Sorting Algorithm
+   - [Bubble Sort O(n^2)](#bubble-sort)
+   - [Selection Sort O(n^2)](#selection-sort)
+   - Insertion Sort
 
 
 ________________________
@@ -207,8 +199,93 @@ The master theorem makes no claim about the solution to the recurrence.
 ```
 
 ## Bubble Sort
+
+```
+swapped = false
+do
+  swapped = false
+  for i = 0 to (N - 2 - i)
+    if a[i] > a[i + 1]
+      swap(a[i], a[i + 1])
+      swapped = true
+while swapped
+```
+
+Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
+
+Complexity: `O(n^2)`
+
+```
+N-2-i = (N-1)-i-1 = index of last unsorted element - 1
+a[i] and a[i + 1] = 2 green bars
+```
+
 ![](/assets/Sorting/Bubble.gif)
+
 Reversed Sorted - Worst Case
+
 ![](/assets/Sorting/Bubble1.gif)
+
 Sorted - Best Case
+
 ![](/assets/Sorting/Bubble2.gif)
+
+## Selection Sort
+
+```
+for i = 0 to (N - 2)
+  minimum = a[i]
+  for j = i + 1 to (N - 1)
+    if a[j] < minimum
+      minimum = a[j]
+  swap(minimum, a[i])
+```
+
+Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
+
+Complexity: `O(n^2)`
+
+```
+a[i] = first unsorted element
+minimum = red bar
+```
+
+![](/assets/Sorting/Selection.gif)
+
+Reversed Sorted - Worst Case
+
+![](/assets/Sorting/Selection1.gif)
+
+Sorted - Best Case
+
+![](/assets/Sorting/Selection2.gif)
+
+## Insertion Sort
+
+```
+for i = 1 to (N-1)
+  key = a[i]
+  j = i - 1
+  while (j >= 0 and key < a[j])
+    a[j + 1] = a[j]
+    j--
+  a[j + 1] = key
+```
+
+Complexity: `O(n^2)`
+
+```
+key = red bar
+a[j] = green bar
+a[j+1] = the gap
+```
+
+![](/assets/Sorting/Insertion.gif)
+
+Reversed Sorted - Worst Case
+
+![](/assets/Sorting/Insertion1.gif)
+
+Sorted - Best Case
+
+![](/assets/Sorting/Insertion2.gif)
