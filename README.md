@@ -1,9 +1,3 @@
----
-title: Developer Note
-# has_children: true
-nav_order: 1
----
-
 # Developer Handbook
 
 This handbook has been compiled by me from many different sources, with the purpose of making it convenient and easy to find and look up frequently used programming knowledge. This is only used for learning purposes.
@@ -298,7 +292,7 @@ Sorted - Best Case - `O(n)`
 
 ## Merge Sort
 
-``` CPP
+```
 void merge(int arr[], int left, int mid, int right) {
   // Create 2 sub-arrays
   int n1 = mid - left + 1;
@@ -368,7 +362,7 @@ Sorted
 
 ## Quick Sort
 
-``` CPP
+```
 int partition(int array[], int left, int right) {
   // Select the pivot element
   int pivot = array[right];
