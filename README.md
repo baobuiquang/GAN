@@ -17,7 +17,8 @@ This handbook has been compiled by me from many different sources, with the purp
    - [Bubble Sort O(n^2)](#bubble-sort)
    - [Selection Sort O(n^2)](#selection-sort)
    - [Insertion Sort O(n^2)](#insertion-sort)
-
+   - [Merge Sort O(n*logn)](#merge-sort)
+   - [Quick Sort O(n^2)](#quick-sort)
 
 ________________________
 
@@ -288,3 +289,117 @@ Reversed Sorted - Worst Case - `O(n^2)`
 Sorted - Best Case - `O(n)`
 
 ![](/assets/Sorting/Insertion2.gif)
+
+## Merge Sort
+
+``` CPP
+void merge(int arr[], int left, int mid, int right) {
+  // Create 2 sub-arrays
+  int n1 = mid - left + 1;
+  int n2 = right - mid;
+  int* L = new int[n1];
+  int* M = new int[n2];
+  for (int i = 0; i < n1; i++)
+    L[i] = arr[left + i];
+  for (int j = 0; j < n2; j++)
+    M[j] = arr[mid + 1 + j];
+
+  // Maintain current index of sub-arrays and main array
+  int i, j, k;
+  i = 0;
+  j = 0;
+  k = left;
+
+  // Until we reach either end of either L or M, pick larger among elements L and M
+  while (i < n1 && j < n2) {
+    if (L[i] <= M[j]) {
+      arr[k] = L[i];
+      i++;
+    } else {
+      arr[k] = M[j];
+      j++;
+    }
+    k++;
+  }
+
+  // When we run out of elements in either L or M, pick up the remaining elements
+  while (i < n1) {
+    arr[k] = L[i];
+    i++;
+    k++;
+  }
+  while (j < n2) {
+    arr[k] = M[j];
+    j++;
+    k++;
+  }
+
+  delete[] L;
+  delete[] M;
+}
+
+void mergeSort(int arr[], int left, int right) {
+  if (left < right) {
+    int mid = left + (right - left) / 2;
+    mergeSort(arr, left, mid);
+    mergeSort(arr, mid + 1, right);
+    merge(arr, left, mid, right);
+  }
+}
+```
+
+Complexity: `O(n*logn)`
+
+![](/assets/Sorting/Merge.gif)
+
+Reversed Sorted
+
+![](/assets/Sorting/Merge1.gif)
+
+Sorted
+
+![](/assets/Sorting/Merge2.gif)
+
+## Quick Sort
+
+``` CPP
+int partition(int array[], int left, int right) {
+  // Select the pivot element
+  int pivot = array[right];
+  int i = (left - 1);
+
+  // Put the elements smaller than pivot on the left 
+  // and greater than pivot on the right of pivot
+  for (int j = left; j < right; j++) {
+    if (array[j] <= pivot) {
+      i++;
+      swap(&array[i], &array[j]);
+    }
+  }
+  swap(&array[i + 1], &array[right]);
+  return (i + 1);
+}
+
+void quickSort(int array[], int left, int right) {
+  if (left < right) {
+    // Select pivot position and put all the elements smaller 
+    // than pivot on left and greater than pivot on right
+    int pi = partition(array, left, right);
+
+    quickSort(array, left, pi - 1);
+    quickSort(array, pi + 1, right);
+  }
+}
+```
+
+Complexity: `O(n^2)`
+
+![](/assets/Sorting/Quick.gif)
+
+Reversed Sorted
+
+![](/assets/Sorting/Quick1.gif)
+
+Sorted
+
+![](/assets/Sorting/Quick2.gif)
