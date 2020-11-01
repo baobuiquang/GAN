@@ -1,3 +1,9 @@
+---
+title: Developer Note
+# has_children: true
+nav_order: 1
+---
+
 # Developer Handbook
 
 This handbook has been compiled by me from many different sources, with the purpose of making it convenient and easy to find and look up frequently used programming knowledge. This is only used for learning purposes.
