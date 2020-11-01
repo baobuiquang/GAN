@@ -1,11 +1,11 @@
 ---
-title: Selection Sort
+title: Bubble Sort
 parent: Sorting Algorithms
-# grand_parent: Folder001
+grand_parent: Algorithms
 # has_children: true
 nav_order: 1
 ---
 
-Selection Sort
+Bubble Sort
 
-Yeah2
+Yeah1

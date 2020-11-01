@@ -1,11 +1,11 @@
 ---
-title: Bubble Sort
+title: Merge Sort
 parent: Sorting Algorithms
-# grand_parent: Folder001
+grand_parent: Algorithms
 # has_children: true
 nav_order: 1
 ---
 
-Bubble Sort
+Merge Sort
 
-Yeah1
+Yeah4
