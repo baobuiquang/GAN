@@ -40,12 +40,12 @@ void quickSort(int array[], int left, int right) {
 
 Complexity: `O(n^2)`
 
-![](/assets/Sorting/Quick.gif)
+![](assets/Quick.gif)
 
 Reversed Sorted
 
-![](/assets/Sorting/Quick1.gif)
+![](assets/Quick1.gif)
 
 Sorted
 
-![](/assets/Sorting/Quick2.gif)
+![](assets/Quick2.gif)

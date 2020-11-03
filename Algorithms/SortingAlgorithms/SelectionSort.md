@@ -26,12 +26,12 @@ a[i] = first unsorted element
 minimum = red bar
 ```
 
-![](/assets/Sorting/Selection.gif)
+![](assets/Selection.gif)
 
 Reversed Sorted - Worst Case - `O(n^2)`
 
-![](/assets/Sorting/Selection1.gif)
+![](assets/Selection1.gif)
 
 Sorted - Best Case - `O(n^2)`
 
-![](/assets/Sorting/Selection2.gif)
+![](assets/Selection2.gif)

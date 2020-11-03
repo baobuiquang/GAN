@@ -66,12 +66,12 @@ void mergeSort(int arr[], int left, int right) {
 
 Complexity: `O(n*logn)`
 
-![](/assets/Sorting/Merge.gif)
+![](assets/Merge.gif)
 
 Reversed Sorted
 
-![](/assets/Sorting/Merge1.gif)
+![](assets/Merge1.gif)
 
 Sorted
 
-![](/assets/Sorting/Merge2.gif)
+![](assets/Merge2.gif)

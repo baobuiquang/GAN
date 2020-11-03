@@ -26,12 +26,12 @@ a[j] = green bar
 a[j+1] = the gap
 ```
 
-![](/assets/Sorting/Insertion.gif)
+![](assets/Insertion.gif)
 
 Reversed Sorted - Worst Case - `O(n^2)`
 
-![](/assets/Sorting/Insertion1.gif)
+![](assets/Insertion1.gif)
 
 Sorted - Best Case - `O(n)`
 
-![](/assets/Sorting/Insertion2.gif)
+![](assets/Insertion2.gif)
