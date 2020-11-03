@@ -27,7 +27,7 @@ Complexity: `O(n^2)`
 a[j] and a[j + 1] = 2 green bars
 ```
 
-![](/assets/Sorting/Bubble.gif)
+![](/Algorithms/SortingAlgorithms/assets/Bubble1.gif)
 
 Reversed Sorted - Worst Case - `O(n^2)`
 
