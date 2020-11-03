@@ -31,7 +31,7 @@ a[j] and a[j + 1] = 2 green bars
 
 Reversed Sorted - Worst Case - `O(n^2)`
 
-![](Algorithms/SortingAlgorithms/assets/Bubble1.gif)
+![](assets/Bubble1.gif)
 
 Sorted - Best Case - `O(n)`
 
