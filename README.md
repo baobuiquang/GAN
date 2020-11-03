@@ -1,5 +1,8 @@
 ---
+layout: default
+title: Developer Note
 nav_order: 1
+permalink: /
 ---
 
 # Developer Note
