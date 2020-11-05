@@ -5,6 +5,8 @@ parent: Computer Networking
 nav_order: 1
 ---
 
+# Network Devices
+
 ### Repeater
 - Layer: 1 - Physical Layer
 - Repeaters regenerate the signal over the same network before the signal becomes too weak or corrupted so as to extend the length to which the signal can be transmitted over the same network.
