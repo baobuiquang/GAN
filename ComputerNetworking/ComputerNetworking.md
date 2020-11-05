@@ -1,6 +1,6 @@
 ---
 title: Computer Networking
-# has_children: true
+has_children: true
 nav_order: 4
 ---
 
@@ -115,7 +115,11 @@ It is used to convert an IP address to its corresponding physical address(i.e., 
 
 ARP is used by the Data Link Layer to identify the MAC address of the Receiver’s machine.
 
+![](assets/arp.jpg)
+
 ### RARP
 RARP stands for Reverse Address Resolution Protocol.
 
-As the name suggests, it provides the IP address of the device given a physical address as input. But RARP has become obsolete since the time DHCP has come into the picture. 
+As the name suggests, it provides the IP address of the device given a physical address as input. But RARP has become obsolete since the time DHCP has come into the picture.
+
+![](assets/rarp.jpg)
