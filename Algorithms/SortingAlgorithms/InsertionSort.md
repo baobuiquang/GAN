@@ -8,7 +8,7 @@ nav_order: 2
 
 # Insertion Sort
 
-```
+``` cpp
 for i = 1 to (N-1)
   key = a[i]
   j = i - 1

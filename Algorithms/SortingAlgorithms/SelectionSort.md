@@ -8,7 +8,7 @@ nav_order: 3
 
 # Selection Sort
 
-```
+``` cpp
 for i = 0 to (N - 2)
   minimum = a[i]
   for j = i + 1 to (N - 1)

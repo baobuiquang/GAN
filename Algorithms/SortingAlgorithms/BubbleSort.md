@@ -8,7 +8,7 @@ nav_order: 1
 
 # Bubble Sort
 
-```
+``` cpp
 for i = N - 1 to 1
   swapped = false
   for j = 0 to (i - 1)

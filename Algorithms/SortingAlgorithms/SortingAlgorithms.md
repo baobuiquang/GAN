@@ -8,6 +8,7 @@ nav_order: 4
 # Sorting Algorithms
 
 ## Time Complexity
+
 Sorting Algorithms | Worst    | Average  | Best    
 ------------------ | -------- | -------- | --------
 Bubble Sort        | O(n^2)   | Θ(n^2)   | Ω(n)
