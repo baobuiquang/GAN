@@ -3,7 +3,7 @@ title: Selection Sort
 parent: Sorting Algorithms
 grand_parent: Algorithms
 # has_children: true
-nav_order: 2
+nav_order: 3
 ---
 
 # Selection Sort
@@ -17,14 +17,8 @@ for i = 0 to (N - 2)
   swap(minimum, a[i])
 ```
 
-Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
-
-Complexity: `O(n^2)`
-
-```
-a[i] = first unsorted element
-minimum = red bar
-```
+> a[i] = first unsorted element
+> minimum = red bar
 
 ![](assets/Selection.gif)
 

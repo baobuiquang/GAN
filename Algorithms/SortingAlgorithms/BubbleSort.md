@@ -19,13 +19,8 @@ for i = N - 1 to 1
     break
 ```
 
-Number of comparisons: `(n - 1) + (n - 2) + (n - 3) +.....+ 1 = n(n - 1) / 2`
 
-Complexity: `O(n^2)`
-
-```
-a[j] and a[j + 1] = 2 green bars
-```
+> a[j] and a[j + 1] are 2 green bars
 
 ![A](assets/Bubble.gif)
 

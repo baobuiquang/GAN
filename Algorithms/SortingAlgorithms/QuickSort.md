@@ -8,33 +8,38 @@ nav_order: 5
 
 # Quick Sort
 
-```
-int partition(int array[], int left, int right) {
-  // Select the pivot element
-  int pivot = array[right];
-  int i = (left - 1);
+``` cpp
+int partition(int arr[], int left, int right) {
+    
+    // 1. Select pivot
+    int pivot = arr[left];
+    int pos = left;
 
-  // Put the elements smaller than pivot on the left 
-  // and greater than pivot on the right of pivot
-  for (int j = left; j < right; j++) {
-    if (array[j] <= pivot) {
-      i++;
-      swap(&array[i], &array[j]);
+    // 2. For loop: Put all smaller on the left and greater on the right
+    for (int i = left + 1; i <= right; i++) {
+        if (arr[i] < pivot) {
+            pos++;
+            swap(arr[i], arr[pos]);
+        }
     }
-  }
-  swap(&array[i + 1], &array[right]);
-  return (i + 1);
+
+    // 3. Swap pivot with the "last left"
+    swap(arr[left], arr[pos]);
+    return pos;
 }
 
-void quickSort(int array[], int left, int right) {
-  if (left < right) {
-    // Select pivot position and put all the elements smaller 
-    // than pivot on left and greater than pivot on right
-    int pi = partition(array, left, right);
+void quickSort(int arr[], int left, int right) {
+    // Exit Recursion Condition
+    if (left < right) {
 
-    quickSort(array, left, pi - 1);
-    quickSort(array, pi + 1, right);
-  }
+        // Select pivot (pos is position of pivot)
+        // Put all smaller on the left and greater on the right
+        int pos = partition(arr, left, right);
+
+        // Recursion
+        quickSort(arr, left, pos - 1);
+        quickSort(arr, pos + 1, right);
+    }
 }
 ```
 

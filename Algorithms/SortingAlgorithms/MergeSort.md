@@ -9,9 +9,6 @@ nav_order: 4
 # Merge Sort
 
 ```
-#include<iostream> 
-using namespace std;
-
 void merge(int arr[], int left, int mid, int right) {
 	// Create 2 temporary subarray
 	int n1 = mid - left + 1;
@@ -96,8 +93,6 @@ int main()
 	return 0;
 }
 ```
-
-Complexity: `O(n*logn)`
 
 ![](assets/Merge.gif)
 

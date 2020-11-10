@@ -3,7 +3,7 @@ title: Insertion Sort
 parent: Sorting Algorithms
 grand_parent: Algorithms
 # has_children: true
-nav_order: 3
+nav_order: 2
 ---
 
 # Insertion Sort
