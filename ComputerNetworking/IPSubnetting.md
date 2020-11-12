@@ -9,7 +9,7 @@ nav_order: 2
 
 ### Class
 
-Class | Range     | Subnet Mask   | Mask
+Class | Range     | Subnet Mask   | Subnet Mask
 ----- | --------- | ------------- | -----
 A     | 001 - 127 | 255.0.0.0     | /8
 B     | 128 - 191 | 255.255.0.0   | /16
@@ -44,7 +44,7 @@ Host range: 192.168.1.1 - 192.168.1.254
 * Jump: 2^**5** = 32
 * Number of usable hosts: 30
 
-Subnet | Mask | Broadcast | Host Range
+Subnet | Subnet Mask | Broadcast | Host Range
 - | - | - | -
 192.168.1.**0**   | /27 | 192.168.1.**31** | 192.168.1.**1** - 192.168.1.**30**
 192.168.1.**32**  | /27 | 192.168.1.**63** | 192.168.1.**33** - 192.168.1.**62**
