@@ -39,7 +39,7 @@ Host range: 192.168.1.1 - 192.168.1.254
 ### Example: 192.168.1.0/24 -> 6 subnets
 
 * Subnetting at Byte 4 (because /24)
-* Minimum bits used to subnet: **3** bits (because 2^3=8 > 6)
+* Minimum bits to used: **3** bits (because 2^3=8 > 6)
 * 32 bits = 24 bits NetID + **3** bits Subnet + **5** bits HostID
 * Jump: 2^**5** = 32
 * Number of usable hosts: 30
