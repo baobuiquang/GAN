@@ -1,5 +1,5 @@
 ---
-title: What is User Experience
+title: Chapter 1 - What is User Experience
 parent: UX - User Experience
 grand_parent: UI/UX Design
 # has_children: true
