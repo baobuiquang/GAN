@@ -1,18 +1,18 @@
 ---
-title: Chapter 1 - What is User Experience
+title: Chapter 1 - What is UX?
 parent: UX - User Experience
 grand_parent: UI/UX Design
 # has_children: true
 nav_order: 1
 ---
 
-# What is User Experience
+# What is User Experience?
 
 Those who’ve heard about UX and want to know what it is, why it’s so important, and how to become an advocate for it: this e-course is just for you.
 
 Companies are starting to realize the importance of centering their products and experiences around the user. They’re investing in professionals who can get UX practices off the ground and refocus their business approach.
 
-So what exactly is UX, and how do you explain it to people? Good question. There are endless theoretical and academic explanations, but I believe ***true art lies with constraint and brevity***.
+So what exactly is UX, and how do you explain it to people? Good question. There are endless theoretical and academic explanations, but I believe **true art lies with constraint and brevity**.
 
 The simplest explanation I’ve seen:
 
@@ -26,13 +26,13 @@ But if you’re receiving bloated explanations, work with your practitioner-part
 
 Software product development isn’t new. The decades-old platform revolutionized business and how customers interact with companies. Both job roles and customer processes have dramatically shifted to online platforms.
 
-Unfortunately, there hasn’t been enough focus on usability and the customer experience. ***Most websites and apps create more frustrating experiences than delightful ones.***
+Unfortunately, there hasn’t been enough focus on usability and the customer experience. **Most websites and apps create more frustrating experiences than delightful ones.**
 
-So even as companies start to meaningfully invest in UX, and even as the growing swell towards delivering products that are far more than ***simply usable*** is well underfoot, we need more voices.
+So even as companies start to meaningfully invest in UX, and even as the growing swell towards delivering products that are far more than **simply usable** is well underfoot, we need more voices.
 
 UX practitioners have been and will continue to beat this drum—and now’s the time for those of you on the outside to join the chorus. The following information about the tenets of UX are brought to you on the shoulders of people who’ve advocated for UX inclusion at a variety of agencies and companies of all sizes to varying degrees of success. They’re tested and true methods, and adopting any semblance will move the needle of UX maturity at your organization ever closer to ideal.
 
-And what’s that ideal? It’s the full embodiment of what I like to call ***the unwritten vow that UX practitioners assume: be unapologetic advocates for all users***.
+And what’s that ideal? It’s the full embodiment of what I like to call **the unwritten vow that UX practitioners assume: be unapologetic advocates for all users**.
 
 It’s time everyone adopted this vow and assumed the role of **UX advocate**. Users need your voice.
 
