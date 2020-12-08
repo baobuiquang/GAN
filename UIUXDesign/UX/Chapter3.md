@@ -1,5 +1,5 @@
 ---
-title: Chapter 3 - Project planning and process
+title: Chapter 3 - Project planning
 parent: UX - User Experience
 grand_parent: UI/UX Design
 # has_children: true
